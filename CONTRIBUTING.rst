@@ -238,12 +238,11 @@ accepted fastest will follow a workflow similar to the following:
      remote <https://help.github.com/articles/configuring-a-remote-for-a-fork>`__
      to your locally cloned repository.
 
-     .. code-block:: bash
+   .. code-block:: bash
       
-       git remote add upstream https://github.com/nipreps/EddyMotionCorrection.git
-     
-     
-     Make sure to `keep your fork up to
+    git remote add upstream https://github.com/nipreps/EddyMotionCorrection.git
+      
+   |  Make sure to `keep your fork up to
      date <https://help.github.com/articles/syncing-a-fork/>`__ with the
      upstream repository.
    | For example, to update your master branch on your local cloned
