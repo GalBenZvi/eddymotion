@@ -257,10 +257,16 @@ accepted fastest will follow a workflow similar to the following:
       checkout master
       git merge upstream/master
 
-4. **Create a**\ `new
-   branch <https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/>`__\ **to
-   develop and maintain the proposed code changes.**\  For example:
-   ``Shell     git fetch upstream  # Always start with an updated upstream     git checkout -b fix/bug-1222 upstream/master``
+
+4. | **Create a** \ `new branch <https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/>`__\  **to
+     develop and maintain the proposed code changes.**\ 
+   | For example:
+
+   .. code-block:: bash
+      
+      git fetch upstream  # Always start with an updated upstream     
+      git checkout -b fix/bug-1222 upstream/master
+   
    Please consider using appropriate branch names as those listed below,
    and mind that some of them are special (e.g., ``doc/`` and
    ``docs/``):
@@ -272,23 +278,23 @@ accepted fastest will follow a workflow similar to the following:
       ``doc/`` or ``docs/`` as that will preempt triggering the full
       battery of continuous integration tests.
 
-5. **Make the changes you’ve discussed, following
-   the**\ `EddyMotionCorrection coding style
-   guide <#EddyMotionCorrection-coding-style-guide>`__\ **.**\  Try to
-   keep the changes focused: it is generally easy to review changes that
-   address one feature or bug at a time. It can also be helpful to test
-   your changes locally, using a `EddyMotionCorrection development
-   environment <https://EddyMotionCorrection.readthedocs.io/en/latest/contributors.html>`__.
-   Once you are satisfied with your local changes, `add/commit/push
+5. | **Make the changes you’ve discussed, following
+     the**\  `EddyMotionCorrection coding style
+     guide <#EddyMotionCorrection-coding-style-guide>`__\ **.**\
+   | Try to keep the changes focused: it is generally easy to review changes that
+     address one feature or bug at a time. It can also be helpful to test
+     your changes locally, using a `EddyMotionCorrection development
+     environment <https://EddyMotionCorrection.readthedocs.io/en/latest/contributors.html>`__.
+   | Once you are satisfied with your local changes, `add/commit/push
    them <https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line>`__
    to the branch on your forked repository.
 
-6. **Submit a**\ `pull
-   request <https://help.github.com/articles/creating-a-pull-request-from-a-fork>`__\ **.**\ 
-   A member of the development team will review your changes to confirm
-   that they can be merged into the main code base. Pull request titles
-   should begin with a descriptive prefix (for example,
-   ``ENH: Adding Gibbs unringing step``):
+6. | **Submit a** \ `pull
+     request <https://help.github.com/articles/creating-a-pull-request-from-a-fork>`__\ **.**\ 
+   | A member of the development team will review your changes to confirm
+     that they can be merged into the main code base.
+   | Pull request titles should begin with a descriptive prefix (for example,
+     ``ENH: Adding Gibbs unringing step``):
 
    -  ``ENH``: enhancements or new features
       (`example <https://github.com/poldracklab/fmriprep/pull/1508>`__)
@@ -310,15 +316,15 @@ accepted fastest will follow a workflow similar to the following:
       descriptive prefix. Pull-requests tagged with ``WIP:`` will not be
       merged until the tag is removed.
 
-7. **Have your PR reviewed by the development team, and update your
-   changes accordingly in your branch.**\  The reviewers will take
-   special care in assisting you to address their comments, as well as
-   dealing with conflicts and other tricky situations that could emerge
-   from distributed development. And if you don’t make the requested
-   changes, we might ask
-   [@bedevere-bot](https://github.com/search?q=commenter%3Abedevere-bot+soft+cushions)
-   to `poke you with soft
-   cushions! <https://youtu.be/XnS49c9KZw8?t=1m7s>`__
+7. | **Have your PR reviewed by the development team, and update your
+     changes accordingly in your branch.**\
+   | The reviewers will take special care in assisting you to address their comments, as well as
+     dealing with conflicts and other tricky situations that could emerge
+     from distributed development. And if you don’t make the requested
+     changes, we might ask
+     `@bedevere-bot <https://github.com/search?q=commenter%3Abedevere-bot+soft+cushions>`__
+     to `poke you with soft
+     cushions! <https://youtu.be/XnS49c9KZw8?t=1m7s>`__
 
 EddyMotionCorrection coding style guide
 ---------------------------------------
@@ -443,7 +449,7 @@ Thank you!
 You’re awesome. :wave::smiley:
 
 *— Based on contributing guidelines from
-the*\ `STEMMRoleModels <https://github.com/KirstieJane/STEMMRoleModels>`__\ *project.*
+the* \ `STEMMRoleModels <https://github.com/KirstieJane/STEMMRoleModels>`__\  *project.*
 
 .. [1]
    The imposter syndrome disclaimer was originally written by `Adrienne
