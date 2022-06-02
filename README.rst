@@ -37,9 +37,9 @@ Overview
     :alt: GitHub Actions Build Status
     :target: https://github.com/GalBenZvi/eddymotion/actions
 
-.. |requires| image:: https://requires.io/github/galbenzvi/eddymotion/requirements.svg?branch=main
+.. |requires| image:: https://requires.io/enterprise/galbenzvi/eddymotion/requirements.svg?branch=main
     :alt: Requirements Status
-    :target: https://requires.io/github/galbenzvi/eddymotion/requirements/?branch=main
+    :target: https://requires.io/enterprise/galbenzvi/eddymotion/requirements/?branch=main
 
 .. |codecov| image:: https://codecov.io/gh/GalBenZvi/eddymotion/branch/main/graphs/badge.svg?branch=main
     :alt: Coverage Status
