@@ -237,7 +237,7 @@ accepted fastest will follow a workflow similar to the following:
      the `“upstream” EddyMotionCorrection repository as a
      remote <https://help.github.com/articles/configuring-a-remote-for-a-fork>`__
      to your locally cloned repository.
-
+   |
    .. code-block:: bash
       
     git remote add upstream https://github.com/nipreps/EddyMotionCorrection.git
