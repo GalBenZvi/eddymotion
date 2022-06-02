@@ -1,18 +1,32 @@
 # This file exists so you can easily regenerate your project.
+
 #
+
 # `cookiepatcher` is a convenient shim around `cookiecutter`
+
 # for regenerating projects (it will generate a .cookiecutterrc
+
 # automatically for any template). To use it:
+
 #
-#    pip install cookiepatcher
-#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary eddymotion
+
+# pip install cookiepatcher
+
+# cookiepatcher gh:ionelmc/cookiecutter-pylibrary eddymotion
+
 #
+
 # See:
-#    https://pypi.org/project/cookiepatcher
+
+# https://pypi.org/project/cookiepatcher
+
 #
+
 # Alternatively, you can run:
+
 #
-#    cookiecutter --overwrite-if-exists --config-file=eddymotion/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+# cookiecutter --overwrite-if-exists --config-file=eddymotion/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
 
 default_context:
 
@@ -34,8 +48,6 @@ default_context:
     command_line_interface_bin_name: 'eddymotion'
     coveralls:                 'no'
     distribution_name:         'eddymotion'
-    email:                     'benzvigal@gmail.com'
-    full_name:                 'Gal Ben-Zvi'
     github_actions:            'yes'
     github_actions_osx:        'yes'
     github_actions_windows:    'yes'
@@ -54,7 +66,6 @@ default_context:
     repo_hosting_domain:       'github.com'
     repo_main_branch:          'main'
     repo_name:                 'eddymotion'
-    repo_username:             'GalBenZvi'
     requiresio:                'yes'
     scrutinizer:               'no'
     setup_py_uses_pytest_runner: 'no'
@@ -69,6 +80,5 @@ default_context:
     travis_osx:                'no'
     version:                   '0.0.0'
     version_manager:           'bump2version'
-    website:                   'https://github.com/GalBenZvi'
     year_from:                 '2022'
     year_to:                   '2022'
