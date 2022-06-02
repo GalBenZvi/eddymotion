@@ -2,12 +2,6 @@
 eddymotion: estimating head-motion and deformations derived from eddy-currents in diffusion MRI data
 =====================================================================================================
 
-|doi|
-
-Open-source eddy-current and head-motion correction for diffusion MRI, an extension of SHOREline (Cieslak, 2020) to multiple diffusion models.
-
-
-
 ---------
 Overview
 ---------
@@ -25,6 +19,8 @@ Overview
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
+    * - DOI
+      - | |doi|
 
 .. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4680599.svg
    :target: https://doi.org/10.5281/zenodo.4680599
@@ -69,7 +65,7 @@ Overview
 
 .. end-badges
 
-Open-source eddy-current and head-motion correction for dMRI.
+Open-source eddy-current and head-motion correction for diffusion MRI, an extension of SHOREline (Cieslak, 2020) to multiple diffusion models.
 
 * Free software: Apache Software License 2.0
 
