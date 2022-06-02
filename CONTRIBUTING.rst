@@ -242,6 +242,7 @@ accepted fastest will follow a workflow similar to the following:
       
        git remote add upstream https://github.com/nipreps/EddyMotionCorrection.git
      
+     
      Make sure to `keep your fork up to
      date <https://help.github.com/articles/syncing-a-fork/>`__ with the
      upstream repository.
