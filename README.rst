@@ -11,6 +11,8 @@ Overview
 .. list-table::
     :stub-columns: 1
 
+    * - DOI
+      - | |doi|
     * - docs
       - |docs|
     * - tests
@@ -19,8 +21,7 @@ Overview
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
-    * - DOI
-      - | |doi|
+    
 
 .. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4680599.svg
    :target: https://doi.org/10.5281/zenodo.4680599
