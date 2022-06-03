@@ -10,13 +10,24 @@ include .editorconfig
 include .github/workflows/github-actions.yml
 include .pre-commit-config.yaml
 include .readthedocs.yml
+include *.md
+include Makefile
 include pytest.ini
 include tox.ini
 
-include AUTHORS.rst
 include CHANGELOG.rst
 include CONTRIBUTING.rst
 include LICENSE
 include README.rst
+include *.rst
 
 global-exclude *.py[cod] __pycache__/* *.so *.dylib
+recursive-exclude .circleci *
+recursive-exclude .docker *
+recursive-exclude .github *
+recursive-exclude .git *
+recursive-exclude .maint *
+recursive-exclude docs *
+
+exclude .*
+exclude Dockerfile

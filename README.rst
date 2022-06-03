@@ -1,12 +1,18 @@
-========
+=====================================================================================================
+eddymotion: estimating head-motion and deformations derived from eddy-currents in diffusion MRI data
+=====================================================================================================
+
+---------
 Overview
-========
+---------
 
 .. start-badges
 
 .. list-table::
     :stub-columns: 1
 
+    * - DOI
+      - | |doi|
     * - docs
       - |docs|
     * - tests
@@ -15,6 +21,11 @@ Overview
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
         | |commits-since|
+    
+
+.. |doi| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.4680599.svg
+   :target: https://doi.org/10.5281/zenodo.4680599
+
 .. |docs| image:: https://readthedocs.org/projects/eddymotion/badge/?style=flat
     :target: https://eddymotion.readthedocs.io/
     :alt: Documentation Status
@@ -23,9 +34,9 @@ Overview
     :alt: GitHub Actions Build Status
     :target: https://github.com/GalBenZvi/eddymotion/actions
 
-.. |requires| image:: https://requires.io/github/GalBenZvi/eddymotion/requirements.svg?branch=main
+.. |requires| image:: https://requires.io/enterprise/galbenzvi/eddymotion/requirements.svg?branch=main
     :alt: Requirements Status
-    :target: https://requires.io/github/GalBenZvi/eddymotion/requirements/?branch=main
+    :target: https://requires.io/enterprise/galbenzvi/eddymotion/requirements/?branch=main
 
 .. |codecov| image:: https://codecov.io/gh/GalBenZvi/eddymotion/branch/main/graphs/badge.svg?branch=main
     :alt: Coverage Status
@@ -55,7 +66,7 @@ Overview
 
 .. end-badges
 
-Open-source eddy-current and head-motion correction for dMRI.
+Open-source eddy-current and head-motion correction for diffusion MRI, an extension of SHOREline (Cieslak, 2020) to multiple diffusion models.
 
 * Free software: Apache Software License 2.0
 

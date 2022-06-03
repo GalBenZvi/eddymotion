@@ -2,4 +2,7 @@
 Authors
 =======
 
-* Gal Ben-Zvi - https://github.com/GalBenZvi
+* Derek Pisner
+* Sebastien Tourbier
+* Ariel Rokem
+* Oscar Esteban
