@@ -15,7 +15,6 @@ include Makefile
 include pytest.ini
 include tox.ini
 
-include AUTHORS.rst
 include CHANGELOG.rst
 include CONTRIBUTING.rst
 include LICENSE
