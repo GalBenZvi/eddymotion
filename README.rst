@@ -60,7 +60,7 @@ Overview
 
 .. |commits-since| image:: https://img.shields.io/github/commits-since/GalBenZvi/eddymotion/v0.0.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/GalBenZvi/eddymotion/compare/main...structure
+    :target: https://github.com/GalBenZvi/eddymotion/compare/v0.0.0...main
 
 
 
