@@ -61,12 +61,12 @@ def test_average_model():
     gtab_1000 = gtab[2:3, :]
     gtab_2000 = gtab[2:, :]
 
-    tmodel_mean = model.AverageDWModels(gtab=gtab, bias=False, stat="mean")
-    tmodel_median = model.AverageDWModels(gtab=gtab, bias=False, stat="median")
-    tmodel_1000 = model.AverageDWModels(
+    tmodel_mean = model.AverageDWModel(gtab=gtab, bias=False, stat="mean")
+    tmodel_median = model.AverageDWModel(gtab=gtab, bias=False, stat="median")
+    tmodel_1000 = model.AverageDWModel(
         gtab=gtab, bias=False, th_high=1000, th_low=1000
     )
-    tmodel_2000 = model.AverageDWModels(
+    tmodel_2000 = model.AverageDWModel(
         gtab=gtab, bias=False, th_high=2000, th_low=1000
     )
 
