@@ -18,7 +18,8 @@ def sort_contributors(entries, git_lines, exclude=None, last=None):
     sorted_authors = sorted(entries, key=lambda i: i["name"])
 
     first_last = [
-        " ".join(val["name"].split(",")[::-1]).strip() for val in sorted_authors
+        " ".join(val["name"].split(",")[::-1]).strip()
+        for val in sorted_authors
     ]
     first_last_excl = [
         " ".join(val["name"].split(",")[::-1]).strip() for val in exclude or []
@@ -45,7 +46,10 @@ def sort_contributors(entries, git_lines, exclude=None, last=None):
             author_matches.append(val)
             position += 1
 
-    names = {" ".join(val["name"].split(",")[::-1]).strip() for val in author_matches}
+    names = {
+        " ".join(val["name"].split(",")[::-1]).strip()
+        for val in author_matches
+    }
     for missing_name in first_last:
         if missing_name not in names:
             missing = sorted_authors[first_last.index(missing_name)]
@@ -72,7 +76,10 @@ def get_git_lines(fname="line-contributors.txt"):
 
     lines = []
     if contrib_file.exists():
-        print("WARNING: Reusing existing line-contributors.txt file.", file=sys.stderr)
+        print(
+            "WARNING: Reusing existing line-contributors.txt file.",
+            file=sys.stderr,
+        )
         lines = contrib_file.read_text().splitlines()
 
     git_line_summary_path = shutil.which("git-line-summary")
@@ -90,7 +97,9 @@ Could not find line-contributors from git repository.%s"""
 git-line-summary not found, please install git-extras. """
             * (git_line_summary_path is None)
         )
-    return [" ".join(line.strip().split()[1:-1]) for line in lines if "%" in line]
+    return [
+        " ".join(line.strip().split()[1:-1]) for line in lines if "%" in line
+    ]
 
 
 if __name__ == "__main__":
@@ -118,7 +127,8 @@ if __name__ == "__main__":
 
     print(
         "Some people made commits, but are missing in .maint/ "
-        "files: %s." % ", ".join(set(miss_creators).intersection(miss_contributors)),
+        "files: %s."
+        % ", ".join(set(miss_creators).intersection(miss_contributors)),
         file=sys.stderr,
     )
 

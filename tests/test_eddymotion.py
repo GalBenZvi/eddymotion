@@ -1,4 +1,3 @@
-
 from eddymotion.cli import main
 
 

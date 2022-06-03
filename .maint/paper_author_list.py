@@ -65,6 +65,9 @@ if __name__ == "__main__":
     print(
         "\n\nAffiliations:\n%s"
         % "\n".join(
-            ["{0: >2}. {1}".format(i + 1, a) for i, a in enumerate(affiliations)]
+            [
+                "{0: >2}. {1}".format(i + 1, a)
+                for i, a in enumerate(affiliations)
+            ]
         )
     )
